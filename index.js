@@ -19,7 +19,6 @@ let us=0.60
 let uk=0.15
 let kosovo=0.44
 
-let country=('turkey', 'us', 'uk', 'kosovo')
 
 if (myage<18){
     console.log (myname + ' ' + 'you will pay' + ' ' + (mydistance + priceofkm)*discount18)
@@ -27,15 +26,15 @@ if (myage<18){
 else if(myage>65){
     console.log (myname + ' ' + 'you will pay' + ' ' + (mydistance + priceofkm)*discount65)
 }
-else if(place=country){
+else if(place === 'turkey'){
     console.log (myname + ' ' + 'you will pay' + ' ' + (mydistance + turkey))
 }
-else if(place=country){
+else if(place === 'us'){
     console.log (myname + ' ' + 'you will pay' + ' ' + (mydistance + us))
 }
-else if(place=country){
+else if(place === 'uk'){
     console.log (myname + ' ' + 'you will pay' + ' ' + (mydistance + uk))
 }
-else if(place=country){
+else if(place === 'kosovo'){
     console.log (myname + ' ' + 'you will pay' + ' ' + (mydistance + kosovo))
 }
